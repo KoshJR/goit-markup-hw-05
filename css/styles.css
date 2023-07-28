@@ -608,7 +608,6 @@ display: block;
   align-items: center;
 }
 .check-text span {
-  display: inline-flex;
   justify-content: center;
   align-items: center;
   border: 1px solid rgba(46, 47, 66, 0.4);
@@ -618,6 +617,9 @@ display: block;
   height: 16px;
   margin-right: 4px;
   fill: transparent;
+}
+.terms-span {
+  display: inline-flex;
 }
 
 .modal-check:checked + .check-text span {
