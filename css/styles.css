@@ -607,7 +607,8 @@ display: block;
   display: flex;
   align-items: center;
 }
-.check-text span {
+
+.terms-span {
   justify-content: center;
   align-items: center;
   border: 1px solid rgba(46, 47, 66, 0.4);
@@ -617,8 +618,6 @@ display: block;
   height: 16px;
   margin-right: 4px;
   fill: transparent;
-}
-.terms-span {
   display: inline-flex;
 }
 
