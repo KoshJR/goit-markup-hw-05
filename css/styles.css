@@ -612,6 +612,7 @@ display: block;
   justify-content: center;
   align-items: center;
   border: 1px solid rgba(46, 47, 66, 0.4);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
   border-radius: 2px;
   width: 16px;
   height: 16px;
@@ -622,7 +623,7 @@ display: block;
 .modal-check:checked + .check-text span {
   background-color: var(--secondary-accent-color);
   border: none;
-  fill: var(--cloud);
+  fill: var(--secondary-white-color);
 }
 .modal-check:focus + .check-text span {
   border-color: var(--iris);
@@ -684,7 +685,6 @@ width: 100%;
 height: 120px;
 padding: 8px 16px;
 background-color: transparent;
-color: var(--primary-accent-color);
 outline: transparent;
 transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 resize: none;
@@ -772,10 +772,6 @@ letter-spacing: 0.04em;
 .terms-span {
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.check-text {
-  display: inline-flex;
-}
-
 
 .subscribe-button {
   min-width: 165px;
