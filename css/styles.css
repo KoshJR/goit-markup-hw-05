@@ -608,7 +608,7 @@ display: block;
   align-items: center;
 }
 
-.check-text span {
+.terms-span {
   display: inline-flex;
   justify-content: center;
   align-items: center;
