@@ -553,9 +553,20 @@
             </li>
           </ul>
         </div>
+        <div class="footer-label">
+          <p class="footer-label-text">Subscribe</p>
+          <form class="footer-form">
+            <label class="subscribe-form">
+              <input type="email" name="email" class="email-form" placeholder="E-mail" >
+            </label>
+            <button type="submit" class="subscribe-button">Subscribe <svg width="24" height="24" class="icon-telegram">
+              <use href="./images/icons.svg#telegram-icon"></use>
+            </svg> </button>
+          </form>
+        </div>
       </div>
     </footer>
-    <div class="backdrop" data-modal>
+    <div class="backdrop is-hidden" data-modal>
       <div class="modal">
         <button type="button" class="close-btn" data-modal-close>
           <svg class="close-btn-icon" width="8" height="8">
@@ -595,7 +606,15 @@
           <label for="user-comment" class="input-label">Comment</label>
           <textarea name="user-comment" id="user-comment" class="modal-comment-area" placeholder="Text input"></textarea>
         </div>
-          <button type="submit">Send</button>
+        <div class="modal-field">
+          <input type="checkbox" name="user-terms" id="user-terms" class="modal-check visually-hidden">
+          <label for="user-terms" class="check-text"><span class="terms-span">
+            <svg class="click-icon" width="10" height="10">
+            <use href="./images/icons.svg#icon-property-click"></use>
+          </svg>
+          </span>I accept the terms and conditions of the <a href="" class="terms-link" >Privacy Policy</a></label>
+        </div>
+          <button type="submit" class="modal-button">Send</button>
         </form>
       </div>
     </div>
